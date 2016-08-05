@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.carikostkita"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.carikostkita.MainUtama"
+            android:label="cari kost kita" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="kostmeruyaplace" android:label="kost meruya place">
+        </activity>
+        
+        <activity
+            android:name="kostafifah" android:label="kost afifah">
+        </activity>
+        
+        <activity
+            android:name="kostbelmont" android:label="kost belmont">
+        </activity>
+        
+        <activity
+            android:name="kostnine" android:label="kost nine">
+        </activity>
+        
+        
+        <activity
+            android:name="kostacikameruya" android:label="kost acik ameruya">
+        </activity>
+        
+        
+        <activity
+            android:name="kostgriyatopaz" android:label="kost griya topaz">
+        </activity>
+        
+        <activity
+            android:name="kostrumah9" android:label="kost rumah 9">
+        </activity>
+
+        <activity
+            android:name="kostagsana" android:label="kost agsana">
+        </activity>
+
+        <activity
+            android:name="kostbangawanshophouse" android:label="kost bangawan shop house">
+        </activity>
+
+        <activity
+            android:name="kostbeehouseresidence" android:label="kost bee house residence">
+        </activity>
+
+        <activity
+            android:name="kostbijakpalmerah" android:label="kost bijak palmerah">
+        </activity>
+
+        <activity
+            android:name="kostbrokolihouse" android:label="kost brokoli house">
+        </activity>
+
+        <activity
+            android:name="kostcasah" android:label="kost casah">
+        </activity>
+
+        <activity
+            android:name="kostdutaraya" android:label="kost duta raya">
+        </activity>
+
+        <activity
+            android:name="kostenamenamtiga" android:label="kost enam enam tiga">
+        </activity>
+
+        <activity
+            android:name="kostgiliresidence" android:label="kost gili residence">
+        </activity>
+
+        <activity
+            android:name="kostglorymansion" android:label="kost glory mansion">
+        </activity>
+
+        <activity
+            android:name="kostgracia" android:label="kost gracia">
+        </activity>
+
+        <activity
+            android:name="kostgrandpalace" android:label="kost grand palace">
+        </activity>
+
+        <activity
+            android:name="kostgrandresidence" android:label="kost grand residence">
+        </activity>
+
+        <activity
+            android:name="kostgriya" android:label="kost griya">
+        </activity>
+
+        <activity
+            android:name="kosthomeyresidence" android:label="kost homey residence">
+        </activity>
+
+        <activity
+            android:name="kostibumarni" android:label="kost ibu marni">
+        </activity>
+
+        <activity
+            android:name="kostkambojaujungraya" android:label="kost kamboja ujung raya">
+        </activity>
+
+        <activity
+            android:name="kostkelapaduaraya" android:label="kost kelapa dua raya">
+        </activity>
+
+        <activity
+            android:name="kostkelik" android:label="kost kelik">
+        </activity>
+
+        <activity
+            android:name="kostklatinung" android:label="kost klatinung">
+        </activity>
+
+        <activity
+            android:name="kostkomplekbpk" android:label="kost komplek bpk">
+        </activity>
+
+        <activity
+            android:name="kostlisandahome" android:label="kost lisanda home">
+        </activity>
+
+        <activity
+            android:name="kostmandiri" android:label="kost mandiri">
+        </activity>
+
+        <activity
+            android:name="kostpalapa" android:label="kost palapa">
+        </activity>
+
+        <activity
+            android:name="kostpalm" android:label="kost palm">
+        </activity>
+
+        <activity
+            android:name="kostpalmerah75residence" android:label="kost palmerah 75 residence">
+        </activity>
+
+        <activity
+            android:name="kostpermata" android:label="kost permata">
+        </activity>
+
+        <activity
+            android:name="kostpinkostel" android:label="kost pinkostel">
+        </activity>
+
+        <activity
+            android:name="kostpondokmandala" android:label="kost pondok mandala">
+        </activity>
+
+
+        <activity
+            android:name="kostputri" android:label="kost putri">
+        </activity>
+
+        <activity
+            android:name="kostrabel" android:label="kost rabel">
+        </activity>
+
+        <activity
+            android:name="kostrawabahagia" android:label="kost rawa bahagia">
+        </activity>
+
+        <activity
+            android:name="kostrumah" android:label="kost rumah">
+        </activity>
+
+        <activity
+            android:name="kostsabigi" android:label="kost sabigi">
+        </activity>
+
+        <activity
+            android:name="kostsembilansembilan" android:label="kost sembilan sembilan">
+        </activity>
+
+        <activity
+            android:name="kostslipi" android:label="kost slipi">
+        </activity>
+
+        <activity
+            android:name="koststars" android:label="kost stars">
+        </activity>
+
+        <activity
+            android:name="kostsusilo" android:label="kost susilo">
+        </activity>
+
+        <activity
+            android:name="kosttanjungduren" android:label="kost tanjung duren">
+        </activity>
+
+        <activity
+            android:name="kosttigalima" android:label="kost tiga lima">
+        </activity>
+
+        <activity
+            android:name="kosttigasembilan" android:label="kost tiga sembilan">
+        </activity>
+
+        <activity
+            android:name="kosttigatujuh" android:label="kost tiga tujuh">
+        </activity>
+        
+        
+        <activity
+            android:name="kost" android:label="List kost">
+        </activity>
+        
+        
+    </application>
+
+</manifest>
